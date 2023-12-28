@@ -60,7 +60,7 @@ match no:   #  The match statement requires Python >= 3.10
     case '7': vehicle = supply('DPcontrol',4.0,4.0,100.0,0.5,20.0)
     case '8': vehicle = tanker('headingAutopilot',-20,0.5,150,20,80)
     case '9': vehicle = remus100('depthHeadingAutopilot',30,50,1525,0.5,170) 
-    case '11': vehicle = buoyDynamics('waveResponse', 2.0, 8.0, 1.0, 45)
+    case '10': vehicle = surfacebuoy('waveResponse', 2.0, 8.0, 1.0, 45)
     case _: print('Error: Not a valid simulator option'), sys.exit()
 
 printVehicleinfo(vehicle, sampleTime, N)

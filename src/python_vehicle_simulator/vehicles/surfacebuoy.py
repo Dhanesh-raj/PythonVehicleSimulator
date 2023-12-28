@@ -34,11 +34,12 @@ Author:     [Your Name]
 """
 import numpy as np
 import math
-from python_vehicle_simulator.lib.control import PIDpolePlacement
-from python_vehicle_simulator.lib.models import clarke83
+from python_vehicle_simulator.lib.buoyControl import buoyControl
+from python_vehicle_simulator.lib.buoyModel import buoyDynamicsModel
 
 # Class Buoy
 class buoyDynamics:
+    pass
     """
     buoyDynamics()
         Simulates buoy response to environmental forces (wave, current)
